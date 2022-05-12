@@ -1,0 +1,148 @@
+.skills{
+    position: relative;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 25px;
+    gap: 10px;
+    width: 95px;
+    height: 40px;
+    background: rgb(51 51 51);
+    border-radius: 50px;
+    margin-left: 3%;
+}
+
+.title{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFB742;
+}
+
+.skill-item{
+    position: absolute;
+    width: 560px;
+    height: 176px;
+    left: 50%;
+    background: rgb(51 51 51);
+    margin-top: 25px;
+}
+
+.descriptions{
+    display: flex;
+}
+
+.item-desc{
+    position: absolute;
+    left: 5.17%;
+    right: 60.17%;
+    top: 52%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #b1b1b1;
+}
+
+.item-title{
+    position: absolute;
+    left: 5.17%;
+    right: 50.86%;
+    top: 17.79%;
+    bottom: 59.92%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 56px;
+    color: #ffb742;
+}
+
+.bton-skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 26px;
+    position: absolute;
+    width: 147.57px;
+    height: 54px;
+    left: 52px;
+    top: 290px;
+    background: #FFB742;
+    border-radius: 50px;
+}
+
+.bton-span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #212529;
+}
+
+.container-img{
+    display: contents;
+    width: 100%;
+    height: 176px;
+    margin-left: 0px;
+}
+
+.log{
+    width: 50px;
+    height: 65px;
+    margin-left: 26px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .skills{
+        height: 860px;
+        margin-top: 0px;
+   }
+
+   .title-container{
+       margin-left: 34%;
+   }
+
+   .skill-item{
+    margin-top: 15px;
+    margin-left: -50%;
+    height: 265px;
+    width: 100%;
+    }
+
+   .descriptions{
+       display: flex;
+    width: 100%;
+    height: 315px;
+    margin-top: 70%;
+   }
+
+   .item-desc{
+    right: 9%;
+    left: 16%;
+    top: 64%;
+    font-size: 22px;
+   }
+
+   .item-title{
+    font-size: 30px;
+    margin-top: 49%;
+    right: 10%;
+    left: 15%;
+   }
+
+   .bton-skill{
+    margin-top: 130%;
+    margin-left: 18%;
+   }
+   
+}

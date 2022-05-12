@@ -2,9 +2,9 @@ import { useContext } from "react";
 import About from "./components/AboutMe/About";
 import Contact from "./components/ContactMe/Contact";
 import Home from "./components/Home/Home";
-// import Portfolio from "./components/Portfolio/Portfolio";
 import ProductList from "./components/ProductList/ProductList";
-import Toggle from "./components/Toggle/Toggle";
+import Skills from "./components/Skills/Skills";
+import Toggle from "./components/Toggle/Toggle"
 import { ThemeContext } from "./context";
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
       <Toggle />
       <Home />
       <About />
-      {/* <Portfolio /> */}
+      <Skills/>
       <ProductList />
       <Contact />
     </div>

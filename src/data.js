@@ -29,4 +29,24 @@ export const products = [
       img: "https://firebasestorage.googleapis.com/v0/b/react-eccomerce-979a7.appspot.com/o/Categorias%2Feccomerce.jpg?alt=media&token=5d9647cd-6186-415a-9853-b7528747e277",
       link: "https://www.linkedin.com/in/nahuel-cernadas-3b111a1b7/",
     },
+    {
+      id: 7,
+      img: "https://firebasestorage.googleapis.com/v0/b/react-eccomerce-979a7.appspot.com/o/Categorias%2Fapptraviu.jpg?alt=media&token=b2a0ee6e-1182-40ec-bdc3-535d7fb6225d",
+      link: "https://dashboard-liart-eight.vercel.app/",
+    },
+    {
+      id: 8,
+      img: "https://firebasestorage.googleapis.com/v0/b/react-eccomerce-979a7.appspot.com/o/Categorias%2Fapphotel.jpg?alt=media&token=f9da05f2-b86d-466c-bd90-6a42ba012d34",
+      link: "https://www.linkedin.com/in/nahuel-cernadas-3b111a1b7/",
+    },
+    {
+      id: 9,
+      img: "https://firebasestorage.googleapis.com/v0/b/react-eccomerce-979a7.appspot.com/o/Categorias%2Fappsenpai.jpg?alt=media&token=4f8578fa-3706-41a5-acfe-6c092caa9093",
+      link: "https://next-fox.vercel.app/?search=all",
+    },
+    {
+      id: 10,
+      img: "https://firebasestorage.googleapis.com/v0/b/react-eccomerce-979a7.appspot.com/o/Categorias%2Fappburger.jpg?alt=media&token=436952db-e915-48cd-9f59-8e9e55b2393b",
+      link: "https://www.linkedin.com/in/nahuel-cernadas-3b111a1b7/",
+    },
   ];

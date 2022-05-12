@@ -20,7 +20,7 @@ const About = () => {
           <p className="a-sub">
             Hola soy Nahuel,
             Quien soy? 👀
-            Soy un desarrolador Full Stack en busqueda de desarrollar mi experiencia
+            Soy un desarrolador Full Stack en busqueda de fortalecer mi experiencia
             y mi carrera profesional.
           </p>
           <p className="a-desc">
